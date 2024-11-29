@@ -1,0 +1,173 @@
+.bg-rosa {
+    background-color: #dd245b !important;
+}
+
+.btn-rosa {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #201d1f;
+    color: white;
+    border: none;
+    padding-top: 40px;
+}
+
+.footer img{
+    width: 100px;
+    height:50px ;
+}
+
+.btn-rosa:hover {
+    opacity: 0.8;
+}
+
+.bg-info {
+    background-color: #add8e6 !important;
+}
+
+.noticia {
+    height: 100px;
+    background-color: #d3d3d3;
+}
+
+.tabela-emprestimo {
+    width: 100%;
+    max-width: 600px; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #e0f3fa; 
+}
+
+.tabela-emprestimo thead th {
+    background-color: #c4e4f4; 
+    color: #333;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #fff;
+}
+
+.tabela-emprestimo tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    text-align: left;
+}
+
+.tabela-emprestimo tbody tr:nth-child(even) {
+    background-color: #f7fbfd;
+}
+
+input {
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.guia{
+    background-color:  #dd245b;
+    padding: 20px;
+    height: 80px;
+}
+
+.guia a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+#noticias img{
+    width: 300px ;
+    height: 200px;
+}
+
+#conta i{
+    width: 300px ;
+    height: 200px;
+}
+
+.bi.bi-person-circle {
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.bi.bi-arrow-right-circle{
+    font-size: 18px;
+    margin: 23px;
+    margin: top 24px;
+
+}
+
+.bi.bi-card-checklist{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bi.bi-person-check{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bi.bi-at{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bi.bi-chat-left-text-fill{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bi.bi-file-earmark-lock2{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bi.bi-info-square{
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.dados{
+    margin-left: 12px;
+}
+
+/* Opcoes do popup menu-lateral */
+.user-menu .dropdown-menu {
+    min-width: 400px; /* Aumenta a largura */
+    max-width: 400px; /* Limite máximo opcional */
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    margin-right: 10px;
+}
+
+.accordion-button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
